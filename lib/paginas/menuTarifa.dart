@@ -29,6 +29,7 @@ class Principal extends StatelessWidget{
           top: 25,
           left: 10,
           child: Container(
+            color: Colors.amberAccent,
             child: Row(
               children: <Widget>[
                 Text("Valo por minuto: ", style: TextStyle(fontSize: 25),),
